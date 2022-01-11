@@ -4,7 +4,7 @@
 #
 Name     : pypi-requests_oauthlib
 Version  : 1.3.0
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/23/eb/68fc8fa86e0f5789832f275c8289257d8dc44dbe93fce7ff819112b9df8f/requests-oauthlib-1.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/23/eb/68fc8fa86e0f5789832f275c8289257d8dc44dbe93fce7ff819112b9df8f/requests-oauthlib-1.3.0.tar.gz
 Summary  : OAuthlib authentication support for Requests.
@@ -14,12 +14,9 @@ Requires: pypi-requests_oauthlib-license = %{version}-%{release}
 Requires: pypi-requests_oauthlib-python = %{version}-%{release}
 Requires: pypi-requests_oauthlib-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: requests-oauthlib
-Provides: requests-oauthlib-python
-Provides: requests-oauthlib-python3
 BuildRequires : pypi(oauthlib)
 BuildRequires : pypi(requests)
-BuildRequires : requests-mock
+BuildRequires : pypi(requests_mock)
 
 %description
 =========================================================
@@ -62,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641489202
+export SOURCE_DATE_EPOCH=1641861607
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
