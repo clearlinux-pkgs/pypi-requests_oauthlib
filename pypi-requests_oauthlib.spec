@@ -4,7 +4,7 @@
 #
 Name     : pypi-requests_oauthlib
 Version  : 1.3.1
-Release  : 33
+Release  : 34
 URL      : https://files.pythonhosted.org/packages/95/52/531ef197b426646f26b53815a7d2a67cb7a331ef098bb276db26a68ac49f/requests-oauthlib-1.3.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/95/52/531ef197b426646f26b53815a7d2a67cb7a331ef098bb276db26a68ac49f/requests-oauthlib-1.3.1.tar.gz
 Summary  : OAuthlib authentication support for Requests.
